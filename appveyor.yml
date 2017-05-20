@@ -15,15 +15,16 @@ cache:
 
 # Adapt as necessary starting from here
 
-matrix:
-  - R_VERSION: devel
-    R_ARCH: x64
-  - R_VERSION: patched
-    R_ARCH: x64
-  - R_VERSION: stable
-    R_ARCH: x64
-  - R_VERSION: oldrel
-    R_ARCH: x64
+environment:
+  matrix:
+    - R_VERSION: devel
+      R_ARCH: x64
+    - R_VERSION: patched
+      R_ARCH: x64
+    - R_VERSION: stable
+      R_ARCH: x64
+    - R_VERSION: oldrel
+      R_ARCH: x64
 
 
 build_script:
