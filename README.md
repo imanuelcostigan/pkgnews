@@ -1,6 +1,6 @@
 # pkgnews
 
-[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/imanuelcostigan/pkgnews?branch=master&svg=true)](https://ci.appveyor.com/project/imanuelcostigan/pkgnews) [![Travis-CI Build Status](https://travis-ci.org/imanuelcostigan/pkgnews.svg?branch=master)](https://travis-ci.org/imanuelcostigan/pkgnews)
+[![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/imanuelcostigan/pkgnews?branch=master&svg=true)](https://ci.appveyor.com/project/imanuelcostigan/pkgnews) [![Travis-CI Build Status](https://travis-ci.org/imanuelcostigan/pkgnews.svg?branch=master)](https://travis-ci.org/imanuelcostigan/pkgnews) [![CRAN_Status_Badge](http://www.r-pkg.org/badges/version/pkgnews)](https://cran.r-project.org/package=pkgnews)
 
 The goal of pkgnews is to make it easier to view package all the main types of `NEWS` files used by package maintainers including the following: `NEWS`, `NEWS.md` or `NEWS.markdown` and `inst/NEWS.Rd` files. At present the first and second is supported by `utils::news()`. However, `NEWS.md` files cannot be as parsimoniously read. 
 
