@@ -27,5 +27,5 @@ show_pkg_news("Rcpp")
 show_pkg_news("dplyr")
 
 ## Github release page
-show_pkg_news("dplyr", remote = TRUE)
+show_pkg_news("dplyr", gh_release = TRUE)
 ```

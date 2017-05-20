@@ -15,7 +15,7 @@ Github URL is available in the package's \code{DESCRIPTION} file (default:
 \code{FALSE}).}
 }
 \value{
-a call to \code{[utils::browseURL()]} to open the NEWS file or an
+a call to \code{\link[utils:browseURL]{utils::browseURL()}} to open the NEWS file or an
 appropriate error message if this fails
 }
 \description{
@@ -32,6 +32,7 @@ pages where none of these are available.
 \dontrun{
 show_pkg_news("curl")  # NEWS
 show_pkg_news("Rcpp")  # NEWS.Rd
-show_pkg_news("readr") # NEWS.md
+show_pkg_news("dplyr") # NEWS.md
+show_pkg_news("dplyr", gh_release = TRUE)
 }
 }

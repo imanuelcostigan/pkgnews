@@ -15,13 +15,14 @@
 #'   library or whether to try to direct you to the Github releases page if the
 #'   Github URL is available in the package's `DESCRIPTION` file (default:
 #'   `FALSE`).
-#' @return a call to `[utils::browseURL()]` to open the NEWS file or an
+#' @return a call to [`utils::browseURL()`] to open the NEWS file or an
 #'   appropriate error message if this fails
 #' @examples
 #' \dontrun{
 #' show_pkg_news("curl")  # NEWS
 #' show_pkg_news("Rcpp")  # NEWS.Rd
-#' show_pkg_news("readr") # NEWS.md
+#' show_pkg_news("dplyr") # NEWS.md
+#' show_pkg_news("dplyr", gh_release = TRUE)
 #' }
 #' @export
 
