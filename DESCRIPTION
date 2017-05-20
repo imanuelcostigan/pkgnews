@@ -1,0 +1,18 @@
+Package: pkgnews
+Type: Package
+Title: Access Package NEWS files
+Version: 0.1.0
+Author: Imanuel Costigan <i.costigan@me.com>
+Maintainer: Imanuel Costigan <i.costigan@me.com>
+Description: Getting to read NEWS files in markdwon format can be tedious 
+  from within an R session. This package provides an interface to view all types 
+  of local NEWS files as well as being able to access release notes on Github 
+  hosted packages.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+Imports: utils,
+    markdown,
+    desc
+RoxygenNote: 6.0.1
